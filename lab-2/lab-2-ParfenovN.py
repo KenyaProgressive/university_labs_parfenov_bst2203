@@ -1,4 +1,4 @@
-# Лабораторная №2. Выполнил: студент БСТ2203 Парфенов Никита Алексеевич
+# Лабораторная №2. Выполнил:
 # _______________________________________________________________________#
 
 from StackDack import Deque
@@ -13,14 +13,14 @@ import string
 # deque_1_1 = Deque()
 #
 # with open("myfile.txt", 'r', encoding='utf-8') as file:
-#     lines = file.readlines()
+#     lines = file.readlines() # reading file
 #     for line in lines:
-#         deque_1.add_rear(line)
+#         deque_1.add_rear(line) # pushing lines
 #
 #     while not deque_1.is_empty():
-#         element = deque_1.pop_rear()
+#         element = deque_1.pop_rear() # delete from end
 #         while not deque_1_1.is_empty() and deque_1_1.peek_rear() > element:
-#             deque_1.add_front(deque_1_1.pop_rear())
+#             deque_1.add_front(deque_1_1.pop_rear()) # if last > current, pushing element in the end
 #         deque_1_1.add_rear(element)
 #
 # with open("myfile.txt", 'w', encoding='utf-8') as file:
@@ -29,8 +29,6 @@ import string
 #         file.write(element_)
 
 # -----------------------------------------------------------------------
-
-# Создадим два дека
 
 # -------------------------------------------------------------------------
 
@@ -81,7 +79,6 @@ first = Stack()  # Башня 1
 second = Stack()  # Башня 2
 third = Stack()  # Башня 3
 helper = 0  # для конвертации информации о дисках в числа
-
 
 # def hanoi_tower_task(n, from_tower, help_tower, to_tower):
 #     if n == 1:
