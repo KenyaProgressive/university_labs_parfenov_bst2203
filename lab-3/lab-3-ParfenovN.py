@@ -8,8 +8,6 @@ import tkinter as tk
 from tkinter import *
 from tkinter import ttk
 from tkinter import filedialog
-import copy
-import sys
 import time
 
 window = Tk()
